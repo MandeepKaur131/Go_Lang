@@ -1,0 +1,12 @@
+Why Go
+    Light-Weight
+    Fast
+        Execution Speed: Js, Pyhton, Ruby, PHP (Interpeted languages)
+        Compilation Speed: Rust, C, C++, Java, C#
+        Java and C# runs on VM
+        GO's speed in kind of same to Java and C#
+        A piece code is included in evey GO program for memory which slows the speed a lil
+    Go is compiled language
+
+
+Code Saples - https://boot.dev and git-hub repo
