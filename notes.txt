@@ -10,3 +10,38 @@ Why Go
 
 
 Code Saples - https://boot.dev and git-hub repo
+
+
+Compilation: We write code in human readable format. Computer can't understand the what
+humans can! Hence, CPU needs it's 1 and 0 and that's all what compilation is! The conversation
+of human readable code into byte is compilation.
+
+The program or interface which does this program is called a compiler. Programming langs like
+Java and C# have their own compilers.
+
+Interpreter:
+Distributor: we gave the raw file..then the person can run Python file_name.py
+The demerits:
+    The person needs to have the python installed
+    People can have access your code and a-ha it's open hourse now
+Compilation
+Disttibution: We share the compiled file - an executeable file - much easier
+
+GO is strongly and static typed Language.
+
+Fast = Speed and memory
+Rust / C - Memory is Mannual!
+Java - Garbage Collectiona and automated
+It's like creating a mini JVM and run the code their
+Java uses more memory
+
+Go has automated memory management but no VM. Go code has a little more code which make memory
+management efficient...yeah more code
+The purpose of the GO runtime is to cleanup unused memory
+%T is for printing the Type
+
+Standard sizes that should be used unless the developer has a specfic need are:
+ - int
+ - unit
+ - float64
+ - complex128
