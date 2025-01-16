@@ -91,3 +91,21 @@ In effect, the break statement that is needed at the end of each case in
 those languages is provided automatically in Go. Another important
 difference is that Go's switch cases need not be constants, and the
 values involved need not be integers.
+
+# Slices can be appened to dynamically add elements
+the valid egs
+    slice = append(slice, oneThing)
+    slice = append(slice, firstThing, secondThing)
+    slice = append(slice, anotherSlice...)
+
+# For - Range loop
+ for INDEX, ELEMENT := range SLICE {}
+ eg
+    fruits := [] string {"apple", "banana", "grape"}
+    for i, fruit := range fruits {
+        fmt.Println(i, fruit)
+    }
+
+# Currying
+    The practice of writing a function that takes a function(s) as input
+    and returns a new function
