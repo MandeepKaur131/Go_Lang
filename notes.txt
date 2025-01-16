@@ -45,3 +45,49 @@ Standard sizes that should be used unless the developer has a specfic need are:
  - unit
  - float64
  - complex128
+
+Bit - 8 Bytes
+Nibbles - 4 Bytes
+Bytes - a 0 or a 1
+
+Interfaces in go are collection of method signatures. A
+type "implements" an interface if it has all of the methods
+of the given interace defined on it.
+
+
+Omitting the Condition in For Loop (Infinite looping)
+Syntax - for INITIAL ; ; AFTER { // do something}
+
+While Loop?
+for Condition (this is how we make our while loop in GO)
+e.g.
+plantHeight := 1
+for plantHeight < 5 {
+    fmt.Println("Still growing! current height:", plantHeight)
+    plantHeight++
+}
+fmt.Println("plant has to grown to ", plantHeight, "inches.")
+
+# Slice! - [] int
+the size is missing. The slice is dynamically flexible, built on top
+of arrays! Slice provide much better exp.
+# For Loop - With the omission of condition and past condition
+package main
+
+import "fmt"
+
+func main() {
+	sum := 1
+	for ; sum < 1000; {
+		sum += sum
+	}
+	fmt.Println(sum)
+}
+
+# Switch
+Go's switch is like the one in C, C++, Java, JavaScript, and PHP,
+except that Go only runs the selected case, not all the cases that follow.
+In effect, the break statement that is needed at the end of each case in
+those languages is provided automatically in Go. Another important
+difference is that Go's switch cases need not be constants, and the
+values involved need not be integers.
